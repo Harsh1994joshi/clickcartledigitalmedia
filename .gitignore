@@ -7,12 +7,15 @@ node_modules/
 /.next/
 /out/
 
-# Environment
+# Environment variables - NEVER commit these
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Keep the example file (no secrets in it)
+!.env.example
 
 # Misc
 .DS_Store
