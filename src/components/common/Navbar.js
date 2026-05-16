@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../../assets/logo.jpg';
+
+<img src={logo} alt="Logo" />
 
 const navLinks = [
   { label: 'Home', path: '/' },
@@ -36,12 +39,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex flex-col leading-none group">
-            <span className="font-display font-800 text-xl tracking-tight text-white">
-              CLICK <span className="gradient-text">CARTEL</span>
-            </span>
-            <span className="font-mono text-[0.6rem] text-white/30 tracking-[0.25em] uppercase mt-0.5">
-              Digital Media
-            </span>
+             <img src={logo} style={{width:"100px"}} alt="Logo" />
           </Link>
 
           {/* Desktop Links */}
