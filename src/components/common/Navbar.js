@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.png';
 
 <img src={logo} alt="Logo" />
 
