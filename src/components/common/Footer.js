@@ -102,7 +102,7 @@ export default function Footer() {
                 { icon: '📍', text: 'Pune, Maharashtra, India' },
                 { icon: '📞', text: '+91 90750 02323' },
                 { icon: '📞', text: '+91 72197 76117' },
-                { icon: '✉️', text: 'info@clickcartel.com' },
+                { icon: '✉️', text: 'heyansh@clickcartel.com' },
               ].map((c, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="text-sm mt-0.5">{c.icon}</span>
